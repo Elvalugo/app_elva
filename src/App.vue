@@ -1,17 +1,20 @@
 <template>
   <img alt="Vue logo" src="./assets/venado.jpg" width="15%0"/>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="P R O C E S O"/>
+  <FooterYoo/>
 
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import FooterYoo from './components/FooterYoo.vue'
 
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    FooterYoo
   
   }
 }
